@@ -1,0 +1,95 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/deepglint/workspace/github_work/ncnn/src/blob.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/blob.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/cpu.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/cpu.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/absval.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/absval.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/absval_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/batchnorm_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/bias_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/convolution_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/deconvolution_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/eltwise_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/innerproduct_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/lrn_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/pooling_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/prelu_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/relu_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/scale_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/sigmoid_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/slice_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/slice_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/arm/softmax_arm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/batchnorm.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/bias.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/bias.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/binaryop.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/bnll.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/concat.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/concat.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/convolution.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/convolutiondepthwise.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/crop.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/crop.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/deconvolution.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/deconvolutiondepthwise.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/detectionoutput.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/dropout.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/eltwise.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/elu.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/elu.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/exp.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/exp.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/expanddims.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/flatten.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/innerproduct.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/input.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/input.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/interp.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/interp.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/log.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/log.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/lrn.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/memorydata.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/mvn.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/normalize.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/padding.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/padding.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/permute.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/permute.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/pooling.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/power.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/power.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/prelu.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/priorbox.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/proposal.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/reduction.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/relu.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/relu.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/reshape.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/roipooling.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/scale.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/scale.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/shufflechannel.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/sigmoid.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/slice.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/slice.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/softmax.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/split.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/split.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/squeeze.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/tanh.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/threshold.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/layer/unaryop.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/mat.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/mat.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/mat_pixel.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/modelbin.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/modelbin.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/net.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/net.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/opencv.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/opencv.cpp.obj"
+  "/home/deepglint/workspace/github_work/ncnn/src/paramdict.cpp" "/home/deepglint/workspace/github_work/ncnn/3516D/src/CMakeFiles/ncnn.dir/paramdict.cpp.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../src"
+  "src"
+  "../src/layer"
+  )
+set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+set(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

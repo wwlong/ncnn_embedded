@@ -1,0 +1,294 @@
+The target system is: arm-linux - v300 - 
+The host system is: Linux - 4.2.0-42-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/3.2.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/3.2.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2148080249/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2148080249.dir/build.make CMakeFiles/cmTryCompileExec2148080249.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2148080249.dir/testCCompiler.c.obj
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-gcc    -o CMakeFiles/cmTryCompileExec2148080249.dir/testCCompiler.c.obj   -c /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2148080249
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2148080249.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-gcc       CMakeFiles/cmTryCompileExec2148080249.dir/testCCompiler.c.obj  -o cmTryCompileExec2148080249  
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2035440828/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2035440828.dir/build.make CMakeFiles/cmTryCompileExec2035440828.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2035440828.dir/CMakeCCompilerABI.c.obj
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-gcc    -o CMakeFiles/cmTryCompileExec2035440828.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2035440828
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2035440828.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-gcc      -v CMakeFiles/cmTryCompileExec2035440828.dir/CMakeCCompilerABI.c.obj  -o cmTryCompileExec2035440828   
+Using built-in specs.
+COLLECT_GCC=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-gcc
+COLLECT_LTO_WRAPPER=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/lto-wrapper
+Target: arm-hisiv300-linux-uclibcgnueabi
+Configured with: '../gcc~linaro-4.8-2013.12/configure' --host=i386-redhat-linux --build=i386-redhat-linux --target=arm-hisiv300-linux-uclibcgnueabi --prefix=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv5te --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --enable-nls --enable-clocale=gnu --enable-extra-hisi-multilibs --with-sysroot=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux/target --with-build-sysroot=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux/target --with-gmp=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-mpfr=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-mpc=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-ppl=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-cloog=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-libelf=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --enable-libgomp --disable-libitm --enable-poison-system-directories --with-libelf=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-pkgversion=Hisilicon_v300 --with-bugurl=http://www.hisilicon.com/cn/service/claim.html
+Thread model: posix
+gcc version 4.8.3 20131202 (prerelease) (Hisilicon_v300) 
+COMPILER_PATH=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2035440828' '-march=armv5te' '-mtls-dialect=gnu'
+ /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/collect2 --sysroot=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec2035440828 /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crt1.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crti.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtbegin.o -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3 -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib CMakeFiles/cmTryCompileExec2035440828.dir/CMakeCCompilerABI.c.obj -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtend.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crtn.o
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-hisiv300-linux-uclibcgnueabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2035440828/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2035440828.dir/build.make CMakeFiles/cmTryCompileExec2035440828.dir/build]
+  ignore line: [make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2035440828.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-gcc    -o CMakeFiles/cmTryCompileExec2035440828.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2035440828]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2035440828.dir/link.txt --verbose=1]
+  ignore line: [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-gcc      -v CMakeFiles/cmTryCompileExec2035440828.dir/CMakeCCompilerABI.c.obj  -o cmTryCompileExec2035440828   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/lto-wrapper]
+  ignore line: [Target: arm-hisiv300-linux-uclibcgnueabi]
+  ignore line: [Configured with: '../gcc~linaro-4.8-2013.12/configure' --host=i386-redhat-linux --build=i386-redhat-linux --target=arm-hisiv300-linux-uclibcgnueabi --prefix=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv5te --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --enable-nls --enable-clocale=gnu --enable-extra-hisi-multilibs --with-sysroot=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux/target --with-build-sysroot=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux/target --with-gmp=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-mpfr=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-mpc=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-ppl=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-cloog=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-libelf=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --enable-libgomp --disable-libitm --enable-poison-system-directories --with-libelf=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-pkgversion=Hisilicon_v300 --with-bugurl=http://www.hisilicon.com/cn/service/claim.html]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.3 20131202 (prerelease) (Hisilicon_v300) ]
+  ignore line: [COMPILER_PATH=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2035440828' '-march=armv5te' '-mtls-dialect=gnu']
+  link line: [ /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/collect2 --sysroot=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec2035440828 /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crt1.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crti.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtbegin.o -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3 -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib CMakeFiles/cmTryCompileExec2035440828.dir/CMakeCCompilerABI.c.obj -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtend.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crtn.o]
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/collect2] ==> ignore
+    arg [--sysroot=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2035440828] ==> ignore
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crt1.o] ==> ignore
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crti.o] ==> ignore
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtbegin.o] ==> ignore
+    arg [-L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3] ==> dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3]
+    arg [-L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc] ==> dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc]
+    arg [-L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib] ==> dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib]
+    arg [-L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib] ==> dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib]
+    arg [-L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib] ==> dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec2035440828.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtend.o] ==> ignore
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3] ==> [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3]
+  collapse library dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc] ==> [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/lib/gcc]
+  collapse library dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib] ==> [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/arm-hisiv300-linux-uclibcgnueabi/lib]
+  collapse library dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib] ==> [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/target/lib]
+  collapse library dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib] ==> [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/target/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3;/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/lib/gcc;/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/arm-hisiv300-linux-uclibcgnueabi/lib;/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/target/lib;/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/target/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec512759953/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec512759953.dir/build.make CMakeFiles/cmTryCompileExec512759953.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec512759953.dir/testCXXCompiler.cxx.obj
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-g++     -o CMakeFiles/cmTryCompileExec512759953.dir/testCXXCompiler.cxx.obj -c /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec512759953
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec512759953.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-g++        CMakeFiles/cmTryCompileExec512759953.dir/testCXXCompiler.cxx.obj  -o cmTryCompileExec512759953  
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2875039480/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2875039480.dir/build.make CMakeFiles/cmTryCompileExec2875039480.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2875039480.dir/CMakeCXXCompilerABI.cpp.obj
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-g++     -o CMakeFiles/cmTryCompileExec2875039480.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2875039480
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2875039480.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-g++       -v CMakeFiles/cmTryCompileExec2875039480.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTryCompileExec2875039480   
+Using built-in specs.
+COLLECT_GCC=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-g++
+COLLECT_LTO_WRAPPER=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/lto-wrapper
+Target: arm-hisiv300-linux-uclibcgnueabi
+Configured with: '../gcc~linaro-4.8-2013.12/configure' --host=i386-redhat-linux --build=i386-redhat-linux --target=arm-hisiv300-linux-uclibcgnueabi --prefix=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv5te --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --enable-nls --enable-clocale=gnu --enable-extra-hisi-multilibs --with-sysroot=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux/target --with-build-sysroot=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux/target --with-gmp=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-mpfr=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-mpc=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-ppl=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-cloog=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-libelf=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --enable-libgomp --disable-libitm --enable-poison-system-directories --with-libelf=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-pkgversion=Hisilicon_v300 --with-bugurl=http://www.hisilicon.com/cn/service/claim.html
+Thread model: posix
+gcc version 4.8.3 20131202 (prerelease) (Hisilicon_v300) 
+COMPILER_PATH=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2875039480' '-shared-libgcc' '-march=armv5te' '-mtls-dialect=gnu'
+ /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/collect2 --sysroot=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec2875039480 /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crt1.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crti.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtbegin.o -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3 -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib CMakeFiles/cmTryCompileExec2875039480.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtend.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crtn.o
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-hisiv300-linux-uclibcgnueabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2875039480/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2875039480.dir/build.make CMakeFiles/cmTryCompileExec2875039480.dir/build]
+  ignore line: [make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2875039480.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-g++     -o CMakeFiles/cmTryCompileExec2875039480.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2875039480]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2875039480.dir/link.txt --verbose=1]
+  ignore line: [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-g++       -v CMakeFiles/cmTryCompileExec2875039480.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTryCompileExec2875039480   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/lto-wrapper]
+  ignore line: [Target: arm-hisiv300-linux-uclibcgnueabi]
+  ignore line: [Configured with: '../gcc~linaro-4.8-2013.12/configure' --host=i386-redhat-linux --build=i386-redhat-linux --target=arm-hisiv300-linux-uclibcgnueabi --prefix=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv5te --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --enable-nls --enable-clocale=gnu --enable-extra-hisi-multilibs --with-sysroot=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux/target --with-build-sysroot=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/arm-hisiv300-linux/target --with-gmp=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-mpfr=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-mpc=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-ppl=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-cloog=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-libelf=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --enable-libgomp --disable-libitm --enable-poison-system-directories --with-libelf=/home/sying/wucaiyuan_toolchain/v300/uclibc_gcc4.8_linaro_toolchain_optimized/install/host_lib --with-pkgversion=Hisilicon_v300 --with-bugurl=http://www.hisilicon.com/cn/service/claim.html]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.3 20131202 (prerelease) (Hisilicon_v300) ]
+  ignore line: [COMPILER_PATH=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib/:/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2875039480' '-shared-libgcc' '-march=armv5te' '-mtls-dialect=gnu']
+  link line: [ /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/collect2 --sysroot=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec2875039480 /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crt1.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crti.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtbegin.o -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3 -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib -L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib CMakeFiles/cmTryCompileExec2875039480.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtend.o /home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crtn.o]
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../libexec/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/collect2] ==> ignore
+    arg [--sysroot=/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2875039480] ==> ignore
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crt1.o] ==> ignore
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crti.o] ==> ignore
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtbegin.o] ==> ignore
+    arg [-L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3] ==> dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3]
+    arg [-L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc] ==> dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc]
+    arg [-L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib] ==> dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib]
+    arg [-L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib] ==> dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib]
+    arg [-L/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib] ==> dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec2875039480.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/crtend.o] ==> ignore
+    arg [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3] ==> [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3]
+  collapse library dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc] ==> [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/lib/gcc]
+  collapse library dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3/../../../../arm-hisiv300-linux-uclibcgnueabi/lib] ==> [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/arm-hisiv300-linux-uclibcgnueabi/lib]
+  collapse library dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/lib] ==> [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/target/lib]
+  collapse library dir [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/../target/usr/lib] ==> [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/target/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/lib/gcc/arm-hisiv300-linux-uclibcgnueabi/4.8.3;/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/lib/gcc;/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/arm-hisiv300-linux-uclibcgnueabi/lib;/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/target/lib;/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/target/usr/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2661279982/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2661279982.dir/build.make CMakeFiles/cmTryCompileExec2661279982.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2661279982.dir/src.c.obj
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-gcc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec2661279982.dir/src.c.obj   -c /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2661279982
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2661279982.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-gcc   -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec2661279982.dir/src.c.obj  -o cmTryCompileExec2661279982  
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1779280249/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1779280249.dir/build.make CMakeFiles/cmTryCompileExec1779280249.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1779280249.dir/src.cxx.obj
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-g++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec1779280249.dir/src.cxx.obj -c /home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1779280249
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1779280249.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/3_3516av100_arm-hisiv300-linux/bin/arm-hisiv300-linux-uclibcgnueabi-g++    -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec1779280249.dir/src.cxx.obj  -o cmTryCompileExec1779280249  
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/3516D/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

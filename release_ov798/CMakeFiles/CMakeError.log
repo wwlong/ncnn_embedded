@@ -1,0 +1,220 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1133843890/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1133843890.dir/build.make CMakeFiles/cmTryCompileExec1133843890.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1133843890.dir/testCCompiler.c.obj
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTryCompileExec1133843890.dir/testCCompiler.c.obj   -c /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1133843890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1133843890.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc       CMakeFiles/cmTryCompileExec1133843890.dir/testCCompiler.c.obj  -o cmTryCompileExec1133843890  
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1133843890] Error 1
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1133843890/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1768998159/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1768998159.dir/build.make CMakeFiles/cmTryCompileExec1768998159.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1768998159.dir/testCCompiler.c.obj
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTryCompileExec1768998159.dir/testCCompiler.c.obj   -c /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1768998159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1768998159.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc       CMakeFiles/cmTryCompileExec1768998159.dir/testCCompiler.c.obj  -o cmTryCompileExec1768998159  
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1768998159] Error 1
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1768998159/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec690160023/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec690160023.dir/build.make CMakeFiles/cmTryCompileExec690160023.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec690160023.dir/testCCompiler.c.obj
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTryCompileExec690160023.dir/testCCompiler.c.obj   -c /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec690160023
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec690160023.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc       CMakeFiles/cmTryCompileExec690160023.dir/testCCompiler.c.obj  -o cmTryCompileExec690160023  
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec690160023] Error 1
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec690160023/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3620554876/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3620554876.dir/build.make CMakeFiles/cmTryCompileExec3620554876.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3620554876.dir/testCCompiler.c.obj
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTryCompileExec3620554876.dir/testCCompiler.c.obj   -c /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3620554876
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3620554876.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc       CMakeFiles/cmTryCompileExec3620554876.dir/testCCompiler.c.obj  -o cmTryCompileExec3620554876  
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3620554876] Error 1
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3620554876/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4280052660/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4280052660.dir/build.make CMakeFiles/cmTryCompileExec4280052660.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4280052660.dir/testCCompiler.c.obj
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTryCompileExec4280052660.dir/testCCompiler.c.obj   -c /home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4280052660
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4280052660.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc       CMakeFiles/cmTryCompileExec4280052660.dir/testCCompiler.c.obj  -o cmTryCompileExec4280052660  
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4280052660] Error 1
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/release_ov798/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4280052660/fast] Error 2
+
+

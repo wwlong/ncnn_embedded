@@ -1,0 +1,42 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/deepglint/workspace/github_work/ncnn/build-arm-gcc-armv7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3070605088/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3070605088.dir/build.make CMakeFiles/cmTryCompileExec3070605088.dir/build
+make[1]: Entering directory `/home/deepglint/workspace/github_work/ncnn/build-arm-gcc-armv7/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/deepglint/workspace/github_work/ncnn/build-arm-gcc-armv7/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3070605088.dir/testCCompiler.c.o
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTryCompileExec3070605088.dir/testCCompiler.c.o   -c /home/deepglint/workspace/github_work/ncnn/build-arm-gcc-armv7/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3070605088
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3070605088.dir/link.txt --verbose=1
+/home/deepglint/workspace/tool_chain/1_ov798/opt/arm-none-eabi/bin/arm-none-eabi-gcc       CMakeFiles/cmTryCompileExec3070605088.dir/testCCompiler.c.o  -o cmTryCompileExec3070605088 -rdynamic 
+arm-none-eabi-gcc: error: unrecognized command line option ‘-rdynamic’
+make[1]: *** [cmTryCompileExec3070605088] Error 1
+make[1]: Leaving directory `/home/deepglint/workspace/github_work/ncnn/build-arm-gcc-armv7/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3070605088/fast] Error 2
+
+
